@@ -1,0 +1,38 @@
+
+
+SocialMedia Backend (Spring Boot)
+
+A backend service for a Social Media application built with Spring Boot. This project provides RESTful APIs for managing users, posts, comments, and interactions, designed with scalability and modularity in mind.
+
+---
+
+📌 Features
+- User Management: Register, login, and manage user profiles.
+- Post APIs: Create, update, delete, and fetch posts.
+- Comment APIs: Add and manage comments on posts.
+- Like System: Like/unlike posts and track engagement.
+- Spring Boot Architecture: Built with controllers, services, and repositories for clean separation of concerns.
+- RESTful APIs: JSON-based endpoints for easy integration with frontend apps.
+
+---
+
+📂 Project Structure
+`
+SocialMedia/
+ └── Backend/
+      ├── src/main/java/com/socialmedia/
+      │    ├── controller/   # REST controllers
+      │    ├── service/      # Business logic
+      │    ├── repository/   # Data access layer
+      │    └── model/        # Entities (User, Post, Comment)
+      └── src/main/resources/
+           └── application.properties
+`
+
+---
+
+⚙️ Requirements
+- Java 17+
+- Spring Boot 3.x
+- Maven/Gradle
+- Database: H2 (default) or MySQL/PostgreSQL (configurable)
